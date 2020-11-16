@@ -1,28 +1,32 @@
 <template>
   <div id="app">
-    <img alt="Shopping List" src="./assets/logo.png" />
-    <shopping-list msg="Vue 3 App" />
+    <register />
   </div>
 </template>
 
 <script>
-import ShoppingList from "./components/ShoppingList.vue";
+import Register from "./components/Register.vue";
 
 export default {
   name: "App",
-  components: {
-    ShoppingList,
-  },
+  components: { Register },
 };
 </script>
 
 <style>
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
