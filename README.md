@@ -1,4 +1,4 @@
-# vue3shoppinglist
+# Vue 3 exploration
 
 ## Project setup
 ```
